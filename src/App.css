@@ -40,3 +40,21 @@
 .read-the-docs {
   color: #888;
 }
+
+
+
+/* PERSONAL STYLES */
+
+nav {
+  display: flex;
+  gap: 4rem;
+}
+
+nav a {
+  transition: 0.2s ease-in-out;
+}
+
+nav .active {
+  color: white;
+  text-decoration: overline;
+}
